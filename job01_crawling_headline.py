@@ -63,3 +63,9 @@ print(df_titles['category'].value_counts())
 
 df_titles.to_csv('./crawling_data/naver_headline_news_{}.csv'.format(
     datetime.datetime.now().strftime('%Y%m%d')), index=False)
+
+# //*[@id="SECTION-LIST"]/ul/li[1]/a[2]
+# //*[@id="SECTION-LIST"]/ul/li[2]/a[2]
+# //*[@id="SECTION-LIST"]/ul/li[3]/a[2]
+# //*[@id="SECTION-LIST"]/ul/li[50]/a[2]
+# //*[@id="SECTION-LIST"]/ul/li[49]/a[2]
